@@ -1,0 +1,145 @@
+html{
+	height: 100%
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	outline: none;
+}
+/*Large Header*/
+h1{
+	font-family: arial;
+	color: #666;
+	text-shadow: 0px 0px 10px #EFEFEF;
+	margin: 0;
+	padding-top: 7px;
+}
+/*Medium Header*/
+h2{
+	margin: 0;
+	color: #666;
+	margin-bottom: 9px;
+	text-shadow: 0px 0px 10px #EFEFEF;
+}
+/*Basic text*/
+h3{
+	margin: 0;
+	padding: 0;
+	color: #666;
+}
+/******************************************
+	This section is for Global entities
+******************************************/
+.global_wrapper{
+	position: relative;
+	min-width: 1180px;
+	height: 100%;
+	background-color: #F0F0F0;
+	background-image: url("images/Star Background - 16.png");
+	background-repeat: repeat;
+}
+.global_head{
+
+}
+.content_wrapper{
+	width: 100%;
+	height: 100%;
+}
+.center_wrapper{
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 880px;
+	width:74%;
+	height: 100%;
+}
+.basic_input_field{
+	box-shadow: 0px 0px 15px -3px #3AA;
+	border-width: 0px;
+}
+.center_head{
+	width: 100%;
+	height: 100px;
+}
+.center_body{
+	background-color: #FFF;
+	width: 100%;
+	height: 85%;
+	border-radius: 5px;
+	box-shadow: 1px 1px 16px -3px #666;
+}
+.body_left_col{
+	width: 80%;
+	float: left;
+}
+.body_left_head{
+	width: 101%;
+	height: 165px;
+	border-bottom: solid 1px #EFEFEF;
+	text-align: center;
+}
+.body_left_body{
+	width: 101%;
+	height: 540px;
+}
+.video_wrapper{
+	width: 560px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 110px;
+}
+.body_right_col{
+	width: 19%;
+	height: 700px;
+	float: right;
+	border-left: solid 1px #EFEFEF;
+}
+.center_footer{
+	width: 80%;
+	height: 80px;
+	float: left;
+	border-top: solid 1px #EFEFEF;
+	text-align: center;
+	padding-top: 26px;
+}
+.boxes{
+	width: 160px;
+	margin: 5px;
+}
+.box{
+	width: 70px;
+	height: 70px;
+	border-radius: 1px;
+	float: left;
+	margin: 5px;
+	box-shadow: inset 1px 1px 15px -5px #999;
+}
+.top_left_box{
+	background-color: #BFE4DA;
+}
+.top_right_box{
+	background-color: #F2F7E6;
+}
+.bottom_left_box{
+	background-color: #757C70;
+}
+.bottom_right_box{
+	background-color: #F1D0D1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
