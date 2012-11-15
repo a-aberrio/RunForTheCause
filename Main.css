@@ -103,6 +103,12 @@ a{
 	-o-transition: background 0.5s linear;
 	transition: background 0.5s linear;
 }
+a.volunteer_div {
+	display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
 .clickable1 a{
 	position:absolute;
     width:100%;

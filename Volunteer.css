@@ -1,0 +1,31 @@
+html{
+	height: 100%;
+}
+body{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	outline: none;
+	background-image: url("images/Star Background - 16.png");
+	background-repeat: repeat;
+	background-color: #F0F0F0;
+	font-family: helvetica;
+}
+
+.frame_wrapper{
+	width: 810px;
+	height: 1900px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	box-shadow: 1px 1px 10px -3px #666;
+	background-color: #FFF;
+	margin-top: 100px;
+}
+.frame_wrap{
+	width: 800px;
+	height: 1700px;
+	padding-bottom: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
