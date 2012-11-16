@@ -55,7 +55,8 @@ a{
 	box-shadow: 0px 3px 10px -3px #666;
 	z-index: 10;
 }
-.top_menu{
+
+#top_menu{
 	width: 730px;
 }
 .top_menu_item{
@@ -64,13 +65,11 @@ a{
 	float: left;
 	width: 33%;
 	height: 100%;
-	border-radius: 1px;
-}
-.top_volunteer{
-	background-image: url("images/volunteer_white.png");
+	border-radius: 1px;	
 	cursor: pointer;
 }
-.top_volunteer:hover{
+
+.top_menu_item:hover{
 	background-color: #F1D0D1;
 	-webkit-transition: background 0.5s linear;
 	-moz-transition: background 0.5s linear;
@@ -78,37 +77,26 @@ a{
 	-o-transition: background 0.5s linear;
 	transition: background 0.5s linear;
 }
-.top_register{
+#top_volunteer{
+	background-image: url("images/volunteer_white.png");	
+}
+
+#top_register{
 	background-image: url("images/register.png");
 	background-position-y: 13px;
-	cursor: pointer;
 }
-.top_register:hover{
-	background-color: #F1D0D1;
-	-webkit-transition: background 0.5s linear;
-	-moz-transition: background 0.5s linear;
-	-ms-transition: background 0.5s linear;
-	-o-transition: background 0.5s linear;
-	transition: background 0.5s linear;
-}
-.top_donate{
+
+#top_donate{
 	background-image: url("images/donate.png");
-	cursor: pointer;
 }
-.top_donate:hover{
-	background-color: #F1D0D1;
-	-webkit-transition: background 0.5s linear;
-	-moz-transition: background 0.5s linear;
-	-ms-transition: background 0.5s linear;
-	-o-transition: background 0.5s linear;
-	transition: background 0.5s linear;
-}
-a.volunteer_div {
+
+.top_menu_item a {
 	display: block;
     height: 100%;
     width: 100%;
     text-decoration: none;
 }
+
 .clickable1 a{
 	position:absolute;
     width:100%;
@@ -227,6 +215,7 @@ a.volunteer_div {
 	height: 100%;
 	float: right;
 	border-left: solid 1px #EFEFEF;
+	margin-top:170px;
 }
 .body_footer{
 	width: 80%;
@@ -267,14 +256,81 @@ a.volunteer_div {
 	background-color: #F1D0D1;
 }
 
+/*****************/
+/* Right Nav Bar */
+/*****************/
+.body_right_col a
+{
+	display:block;
+	border:1px solid white;
+	background-color:#F2F7E6;
+	padding:5px;
+	margin-left:10px;
 
+	/* Slide over transition */
+	transition: margin-left 50ms linear;
+	-moz-transition: margin-left 50ms linear;
+	-webkit-transition: margin-left 50ms linear;
+	-o-transition: margin-left 50ms linear;
+}
 
+.body_right_col a:hover
+{
+	background-color:#F3DCC3;
+	margin-left:0px;
+}
 
+.body_right_col a:active
+{
+	box-shadow: inset 1px 1px 15px -5px #999;
+}
 
+.body_right_col div
+{
+	font-family:arial;
+	list-style-type:none;
+	width:100%;
+	padding:0px;
+	overflow:hidden;
+}
+.body_right_col a
+{
+	display:block;
+	width:100%;
+}
 
+#ext_links
+{
+	margin-top:100px;
+}
 
+/* These applies styles to the 'selected' nav element
+   In other words, the 'home' navigation button will be selected when on the home page.
+ */
+#body_home #nav_home,
+#body_register #nav_register,
+#body_volunteer #nav_volunteer,
+#body_donate #nav_donate,
+#body_disorders #nav_disorders
+{
+    margin-left:0px;
+	background-color:#F1D0D1;
+	pointer-events:none;
+	cursor:none;
+}
 
-
+/**************************/
+/* Disabled Links:        */ 
+/* Remove entry to enable */
+/**************************/
+#top_register a,
+#top_donate a,
+#nav_disorders,
+#nav_donate,
+#nav_register
+{
+	display:none;
+}
 
 
 
