@@ -215,7 +215,7 @@ a{
 	height: 100%;
 	float: right;
 	border-left: solid 1px #EFEFEF;
-	margin-top:170px;
+	margin-top:0px;
 }
 .fb_wrap{
 	width: 215px;
@@ -240,6 +240,9 @@ a{
 	width: 100%;
 	height: 100px;
 }
+/*****************/
+/* Logo */
+/*****************/
 .boxes{
 	width: 160px;
 	margin: 5px;
@@ -272,11 +275,13 @@ a{
 /*****************/
 .body_right_col a
 {
-	display:block;
-	border:1px solid white;
-	background-color:#F2F7E6;
-	padding:5px;
-	margin-left:10px;
+	height: 25px;
+	display: block;
+	border: 3px solid white;
+	background-color: #BFE4DA;
+	padding: 5px;
+	margin-left: 14px;
+	box-shadow: inset 1px 1px 8px -2px #999;
 
 	/* Slide over transition */
 	transition: margin-left 50ms linear;
@@ -287,13 +292,14 @@ a{
 
 .body_right_col a:hover
 {
-	background-color:#F3DCC3;
+	background-color:#F1D0D1;
+	box-shadow: none;
 	margin-left:0px;
 }
 
 .body_right_col a:active
 {
-	box-shadow: inset 1px 1px 15px -5px #999;
+	box-shadow: inset 1px 1px 8px -2px #999;
 }
 
 .body_right_col div
@@ -307,7 +313,7 @@ a{
 .body_right_col a
 {
 	display:block;
-	width:100%;
+	width:89%;
 }
 
 #ext_links
