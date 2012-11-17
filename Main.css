@@ -228,6 +228,17 @@ a.volunteer_div {
 	float: right;
 	border-left: solid 1px #EFEFEF;
 }
+.fb_wrap{
+	width: 215px;
+	height: 100px;
+	margin-top: 170px;
+	margin-left: auto;
+	margin-right: auto;
+	border-top: solid 1px #EFEFEF;
+}
+.fb-like{
+	padding-top: 25px !important;
+}
 .body_footer{
 	width: 80%;
 	height: 80px;
